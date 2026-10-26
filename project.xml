@@ -1,0 +1,8 @@
+<project lvgl_version="9.5.0" name="first_try">
+	<targets>
+		<target name="large">
+			<display width="320" height="240" />
+			<memory bandwidth="2MB/s" name="ospi" size="8MB" section="the_ospi_section" />
+		</target>
+	</targets>
+</project>
